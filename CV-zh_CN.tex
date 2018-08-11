@@ -1,0 +1,79 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{\CJKfamily{zhkai}王勇博}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{(+86) 136-3799-5210}{yongbowin@outlook.com}{https://yongbowin.github.io}{GitHub @yongbowin}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+ 
+\section{个人总结}
+本人热爱科学研究、热爱编程、对数字敏感、数学基础好。具有丰富的实习实践经历,熟悉并具有前后台全栈开发经历。在校及实习期间长期从事软件研发编程以及机器学习、自然语言处理算法相关研究,对科学研究抱有极大的热情。
+
+% \section{\faGraduationCap\ 教育背景}
+\section{教育背景}
+\datedsubsection{\textbf{重庆大学},计算机科学与技术,\textit{硕士研究生(推免)}}{2015.9 - 2018.6}
+\ 重庆大学学业奖学金(3次),导师：夏云霓\ 教授
+\datedsubsection{\textbf{重庆大学},计算机科学与技术,\textit{工学学士}}{2011.9 - 2015.6}
+\ 国家励志奖学金(top 5\%),重庆大学乙等奖学金(1次),数模竞赛获奖(1次),优秀团员(1次)
+\datedsubsection{\textbf{重庆大学},工商管理,\textit{管理学学士(第二专业)}}{2012.9 - 2015.6}
+\ 核心课程：宏观经济学、微观经济学、运筹学、管理学、会计学、市场营销。导师：闫威\ 教授
+
+% \section{\faCogs\ IT 技能}
+\section{技术能力}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+  \item \textbf{编程语言}: JavaScript, HTML/CSS, Python, Java, SQL, C, Shell
+  \item \textbf{操作系统,数据库与工程构建}: Linux/MySQL/MongoDB/Docker/Git/SVN/Web Development
+  \item \textbf{关键词}: Bootstrap/Strut2/SpringMVC/MyBatis/JDBC/Django/Keras/Tensorflow/Hadoop/HBase/Elasticsearch/机器学习/深度学习/自然语言处理
+\end{itemize}
+
+% \end{itemize}
+
+\section{实习经历}
+\datedsubsection{\textbf{中国科学院深圳先进技术研究院 | BMI, SIAT, CAS}, 自然语言处理实习生}{2017.12-至今}
+\begin{itemize}
+  \item 独立负责数字档案馆可视化开发,使用技术HTML5,JavaScript,SpringMVC,MyBatis实现上线
+  \item 独立负责基于深度强化学习的时序推特流文本分类的研究,该研究基于TREC文本检索会议的子项目RTS,将深度强化学习引入到时序文本流的分类任务中,将爬取的清洗后的时序推特文本编码成其高层抽象表示并将其作为强化学习中动作价值估计函数的输入,根据输出的Q值的大小来确定当前文本下一步应采取的动作,进而确定其类别
+\end{itemize}
+
+\datedsubsection{\textbf{深圳市爱智慧科技有限公司 | AiTech},机器学习和自然语言处理组算法工程师}{2016.7-2017.12}
+\begin{itemize}
+  \item 查尔德Chaorder辅助投资决策平台。作为主要开发人员参与该项目的研发,通过机器阅读、处理和分析A股上市公司海量的新闻、研报和公告来为用户的投资决策提供支持,使用机器自动对公司的运营数据、财务数据、KPI等指标进行特征挖掘,解析行业新闻、突发事件和风险事件。
+  \item 基于Elasticsearch, Kafka, Logstash, Zookeeper和Kibana等技术实现金融领域文本的全文搜索
+  \item 作为公司初始人员,负责部门服务器和私有云的搭建以及日常运维。使用Django框架,独立完成对公司公众号\textit{爱投酱}的研发和部署上线
+\end{itemize}
+
+\datedsubsection{\textbf{重庆市领道科技有限公司 | LingDao Tech},Web开发工程师}{2015.7-2015.10}
+\begin{itemize}
+  \item 独立负责音乐相册公众号、教学管理网站、朗诺建仪设备网站和微信医疗公众号等项目的开发及上线
+\end{itemize}
+
+\section{竞赛获奖/认证}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+  \item 中国大数据人工智能创新创业大赛之科技金融\textbf{第二名}( \textit{http://www.datadreams.org} ),\ 2017
+  \item 全国大学生数学建模竞赛重庆赛区\textbf{二等奖},\ 2013
+  \item 中级网络工程师(软考),\ 2014
+\end{itemize}
+
+\section{发表论文}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+  \item Weiling Li, \textbf{Yongbo Wang}, Yuandou Wang, Yunni Xia, Kunyin Guo, Quanwang Wu, Qingsheng Zhu, An energy-aware and under-SLA-constraints VM consolidation strategy based on the optimal matching method. \textit{In International Journal of Web Services Research Volume 14, Issue 4 (\textbf{IJWSR})}, IF0.667, 2017.
+  \item \textbf{YongBo Wang}, HaiChuan Zhang, KunYin Guo, Yunni Xia*, WeiLing Li, Stochastic performance analysis of unreliable IaaS clouds. \textit{In Proceedings of S2 International Conference on Internet of Things (\textbf{ICIOT})}, 2016.
+\end{itemize}
+
+\end{document}
